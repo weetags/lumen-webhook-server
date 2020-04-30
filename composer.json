@@ -14,9 +14,15 @@
             "email": "j.fenwick@me.com"
         }
     ],
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/lidoma/laravel-webhook-server.git"
+        }
+    ],
     "require": {
-        "php": "^7.3",
-        "spatie/laravel-webhook-server": "^1.4"
+        "php": "^7.2",
+        "spatie/laravel-webhook-server": "dev-php7.2"
     },
     "require-dev": {
         "laravel/lumen-framework": "^5.8|^6.0",
